@@ -1,0 +1,75 @@
+header {
+    width: 7%;
+    background-color: #181818;
+    text-align: center;
+    height: 100vh;
+    /*  animation: fadein; */
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    z-index: 2;
+    position: fixed;
+}
+
+
+/* logo */
+
+.logo_part {
+    background-color: black;
+    height: 12rem;
+}
+
+.logo_part img {
+    width: 70%;
+    padding: 1.2rem 0 0.2rem 0;
+    cursor: pointer;
+}
+
+.logo_part h1 {
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.2rem 0 0.8rem 0;
+}
+
+.logo_part h3 {
+    font-size: 0.8rem;
+    color: var(--grey-text-color);
+}
+
+
+/* nav */
+
+nav {
+    padding-top: 120%;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--grey-text-color);
+    display: block;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border: 1px solid rgba(232, 232, 232, 0.07);
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: var(--hover--color);
+}
+
+
+/* social links */
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    padding: 150% 10px 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: var(--grey-text-color);
+}
+
+.social a:hover {
+    color: var(--hover--color);
+}

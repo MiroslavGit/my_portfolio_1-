@@ -1,0 +1,187 @@
+.popis {
+    margin: 13rem 0 0 0rem;
+}
+
+.popis span {
+    font-size: 4.5rem;
+    color: var(--hover--color);
+}
+
+.popis_myself {
+    width: 40% !important;
+}
+
+.skills {
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-top: -12%;
+}
+
+.skills-bar {
+    padding: 25px 30px;
+}
+
+.skills-bar .bar {
+    margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 1 !important;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 8px;
+    color: #07374a;
+}
+
+.skills-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 550px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+    position: absolute;
+    background: #25b79f;
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    opacity: 1 !important;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress-line .html {
+    width: 95%;
+}
+
+.progress-line .css {
+    width: 85%;
+}
+
+.progress-line .javascript {
+    width: 65%;
+}
+
+.progress-line .php {
+    width: 40%;
+}
+
+.progress-line .wordPress {
+    width: 65%;
+}
+
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    right: 0;
+    top: -14px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #07374a;
+    opacity: 1 !important;
+}
+
+.bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: 700;
+    background: #07374a;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 1 !important;
+}
+
+.progress-line .html::after {
+    content: "95%";
+}
+
+.progress-line .css::after {
+    content: "85%";
+}
+
+.progress-line .javascript::after {
+    content: "65%";
+}
+
+.progress-line .php::after {
+    content: "40%";
+}
+
+.progress-line .wordPress::after {
+    content: "65%";
+}
+
+
+/* ////........Media Query........//// */
+
+@media (max-width: 700px) {
+    .skills {
+        width: 80%;
+    }
+    .skills-bar .bar .progress-line {
+        width: 100%;
+    }
+}
+
+
+/* ////........ Other Skills ........//// */
+
+.other_skills {
+    background-color: #2a2a2a;
+    height: 17rem;
+    width: 40rem;
+    border-radius: 15px;
+}
+
+.other_skills h2 {
+    color: #f0f0f0;
+    padding: 2rem 0 0.5rem 2rem;
+    font-weight: bold;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+li {
+    margin: 1em;
+    margin-left: 3em;
+    color: #f0f0f0;
+}
+
+li:before {
+    content: '\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #08fdd8;
+}

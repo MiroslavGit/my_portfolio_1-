@@ -1,0 +1,12 @@
+.main {
+  animation: transition 1s !important;
+}
+
+@keyframes transition {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

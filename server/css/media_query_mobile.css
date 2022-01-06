@@ -1,0 +1,244 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    * {
+        letter-spacing: 2px;
+    }
+    /* Index */
+    /* Uvod */
+    header {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        /*  margin-left: 0; */
+    }
+    span {
+        font-size: 2.5rem;
+        height: 45px;
+    }
+    span.medzera {
+        margin-left: 12px;
+    }
+    .fotka img {
+        display: none;
+    }
+    .popis_pod_nazov span {
+        font-size: 3rem;
+    }
+    .prvy_riadok {
+        display: flex;
+        padding: 7rem 0 0 0rem;
+    }
+    .druhy_riadok {
+        display: flex;
+        padding: 0 0 0 0rem;
+    }
+    .treti_riadok {
+        display: flex;
+        padding: 0 0 0 0rem;
+    }
+    .druhy_druhy {
+        display: block;
+    }
+    .title {
+        color: var(--grey-text-color);
+        font-size: 1rem;
+        padding: 2rem 0 0 0rem;
+    }
+    .button_div {
+        padding: 2rem 0 0 0rem;
+        width: 10rem;
+    }
+    .button {
+        width: 180px;
+        height: 40px;
+    }
+    .button:hover {
+        background-position: left bottom;
+        cursor: pointer;
+    }
+    .button_submit {
+        width: 180px;
+        height: 40px;
+        margin-left: 0;
+    }
+    .button_submit:hover {
+        background-position: left bottom;
+        cursor: pointer;
+    }
+    .text {
+        line-height: 40px;
+    }
+    /* My portfolio  */
+    .my_portfolio {
+        padding: 7rem 0 0 0rem;
+        display: block;
+    }
+    .my_portfolio span {
+        font-size: 2.5rem;
+        height: 45px;
+    }
+    .button_div_media_query {
+        padding: 4rem 0 0 0rem;
+        width: 15rem;
+    }
+    .popis_button {
+        display: block;
+        padding: 0 2rem 0 0rem;
+        line-height: 25px;
+    }
+    /* Me myself  */
+    .text_zemegula {
+        display: block;
+    }
+    .popis_myself {
+        margin-top: 4rem;
+        margin-left: 0rem;
+        line-height: 20px;
+        width: 90%;
+    }
+    .tagcloud {
+        margin: 6rem 0 0 -1rem;
+        width: 15rem;
+    }
+    .tagcloud--item {
+        font-size: 10px;
+    }
+    /* Contact */
+    .contact {
+        display: block;
+    }
+    .popis_form {
+        width: 100%;
+    }
+    .popis_contact {
+        margin-top: 4rem;
+        margin-left: 0rem;
+        line-height: 20px;
+        width: 88%;
+    }
+    form {
+        width: 100%;
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+    .name_email {
+        display: block;
+    }
+    .email {
+        margin-left: 0rem;
+    }
+    input {
+        max-width: 70%;
+    }
+    .subject,
+    .message {
+        max-width: 70%;
+    }
+    .map {
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+    .iframe {
+        width: 20rem;
+        height: 20rem;
+    }
+    /* About */
+    /* Responzívna hlavička */
+    .menu-button {
+        position: absolute;
+        z-index: 900;
+        right: 6%;
+        top: 5%;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    .menu-button-line {
+        height: 5px;
+        width: 40px;
+        margin-bottom: 5px;
+        background: white;
+        transition: 0.9s;
+    }
+    /*menu get crossed when clicked*/
+    .menu-button.close {
+        transform: rotate(180deg);
+        transition: 0.9s;
+    }
+    .menu-button.close .menu-button-line:nth-child(1) {
+        background: rgb(160, 148, 148);
+        transform: rotate(45deg) translate(5px, 3px);
+        transition: 1.2s;
+    }
+    .menu-button.close .menu-button-line:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-button.close .menu-button-line:nth-child(3) {
+        background: rgb(160, 148, 148);
+        transform: rotate(-45deg) translate(8px, -6px);
+        transition: 1.2s;
+    }
+    /*===menu===*/
+    .menu {
+        position: absolute;
+        top: -70%;
+        width: 100%;
+        opacity: 50;
+        visibility: hidden;
+        transition: 1.5s;
+        z-index: 500;
+    }
+    .menu a {
+        display: inline-flex;
+        padding: 10px;
+        color: rgb(160, 148, 148);
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu.show {
+        visibility: visible;
+    }
+    .menu-nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 100%;
+        height: 110vh;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+    /*==nav part==*/
+    .menu-nav {
+        margin: 0;
+        padding: 0;
+        background: #181818;
+        list-style: none;
+        transform: translate3d(0, -300%, 0);
+        transition: 1.4s;
+    }
+    .menu-nav.show {
+        transform: translate3d(0, 0, 0);
+    }
+    /*branding side*/
+    .menu-branding {
+        margin: 0;
+        padding: 0;
+        transition: 1.2s;
+    }
+    .menu-branding.show {
+        transform: translate3d(0, 0, 0);
+    }
+    .menu.show ul {}
+    .nav-item.show {
+        align-items: center;
+        display: inline;
+        padding: 10x;
+        margin: 0;
+    }
+    .nav-item a:hover {
+        color: #444;
+        transition: 0.4s;
+    }
+}

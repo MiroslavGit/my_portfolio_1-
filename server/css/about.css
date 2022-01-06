@@ -1,0 +1,8 @@
+.popis {
+    margin: 13rem 0 0 0rem;
+}
+
+.popis span {
+    font-size: 4.5rem;
+    color: var(--hover--color);
+}
