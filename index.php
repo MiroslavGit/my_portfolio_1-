@@ -32,10 +32,10 @@
             <h3>Web Developer</h3>
         </div>
         <nav>
-            <a class="link" href="pages/about.html">About</a>
-            <a class="link" href="pages/my_skills.html">My Skills</a>
-            <a class="link" href="pages/my_work.html">My Work</a>
-            <a class="link" href="pages/contact.php">Contact</a>
+            <a class="link" href="client/pages/about.html">About</a>
+            <a class="link" href="client/pages/my_skills.html">My Skills</a>
+            <a class="link" href="client/pages/my_work.html">My Work</a>
+            <a class="link" href="client/pages/contact.php">Contact</a>
         </nav>
         <div class="social">
             <a href="https://www.linkedin.com/in/miroslav-hanisko-b1abb8223/" target="_blank" alt="linkedin"> <i
@@ -59,16 +59,16 @@
             <div class="menu-branding"></div>
             <ul class="menu-nav">
                 <li class="nav-item">
-                    <a class="secondery-color" href="pages/about.html">About</a>
+                    <a class="secondery-color" href="client/pages/about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/my_skills.html">My Skills</a>
+                    <a href="client/pages/my_skills.html">My Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/my_work.html">My Work</a>
+                    <a href="client/pages/my_work.html">My Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/contact.php">Contact</a>
+                    <a href="client/pages/contact.php">Contact</a>
                 </li>
             </ul>
         </nav>

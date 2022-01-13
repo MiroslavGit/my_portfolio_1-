@@ -35,8 +35,8 @@ include_once '../../server/php/database.php';
 <body>
     <header>
         <div class="logo_part">
-            <a href="../index.php"> <img src="../../server/images/favpng_logo-drawing-m-02csf-brand.png" alt="logo"
-                    title="logo"> </a>
+            <a href="../../../index.php"> <img src="../../server/images/favpng_logo-drawing-m-02csf-brand.png"
+                    alt="logo" title="logo"> </a>
             <h1>Miroslav</h1>
             <h3>Web Developer</h3>
         </div>
@@ -88,7 +88,7 @@ include_once '../../server/php/database.php';
         <div class="contact ">
             <div class="popis_form ">
 
-                <div class="popis">
+                <div class="popis ">
                     <div class="druhy_riadok">
                         <span class="pismeno ">C</span>
                         <span class="pismeno ">o</span>
@@ -108,8 +108,8 @@ include_once '../../server/php/database.php';
                     have other request or question, don’t hesitate to use the form.
                 </p>
 
-                <!--Ak chcem odosielať na email tak zmenim action="https://formsubmit.co/miroslav2022@email.com"  -->
-                <form action="contact.php" method="POST">
+                <!--Ak chcem odosielať na email tak zmenim action="https://formsubmit.co/miroslav2022@gmail.com"  -->
+                <form action="https://formsubmit.co/miroslav2022@gmail.com" method="POST">
                     <input type="hidden" name="_template" value="box">
                     <div class="name_email ">
                         <input class="name " type="text " id="name " name="name " placeholder="Name "><br>
@@ -119,7 +119,7 @@ include_once '../../server/php/database.php';
                     <textarea class="message" class="input " type="text " name="message "
                         placeholder="Message "></textarea>
 
-                    <input type="hidden" name="_next" value="http://localhost/portfolio/client/pages/contact.php">
+                    <input type="hidden" name="_next" value="http://miroslav.great-site.net/client/pages/contact.php">
                     <input type="hidden" name="_captcha" value="false">
                     <div class="button_div ">
                         <button class="button_submit" name="btn" type="submit">Odoslať</button>
@@ -141,7 +141,7 @@ include_once '../../server/php/database.php';
                 $message = $_POST['message'];
             }
 
-            $sql = "INSERT INTO contacts (`name`, `email`, `subject`, `message`, `razitko`) 
+            $sql = "INSERT INTO contacts (name, email, subject, message, razitko) 
             VALUES ('$name', '$email' , '$subject' , '$message', NOW())";
 
             if (!isset($_POST['name'])) {
