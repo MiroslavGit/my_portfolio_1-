@@ -14,10 +14,11 @@
         type='text/css'>
 
 
-    <link rel="stylesheet" href="../server/css/transition.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="../server/css/vertical_header.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="../server/css/style_index.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="../server/css/media_query_mobile.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="server/css/transition.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="server/css/vertical_header.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="server/css/style_index.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="server/css/media_query_mobile.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="server/css/media_scree_mobile_index.css?<?php echo time(); ?>">
 
     <title>M | Front End Developer</title>
 
@@ -87,7 +88,7 @@
                         <span class="pismeno">I</span>
                         <span class="pismeno">'</span>
                         <span class="pismeno">m</span>
-                        <span class="pismeno medzera"> </span>
+                        <span class="pismeno medzera" style="margin-left: 20px;"> </span>
                         <span class="pismeno " style="color:#08fdd8; ">M</span>
                         <span class="pismeno ">i</span>
                         <span class="pismeno ">r</span>
@@ -102,26 +103,26 @@
                         <span class="pismeno ">w</span>
                         <span class="pismeno ">e</span>
                         <span class="pismeno ">b</span>
-                        <span class="pismeno medzera "> </span>
-                        <span class="pismeno ">d</span>
-                        <span class="pismeno ">e</span>
-                        <span class="pismeno ">v</span>
-                        <span class="pismeno ">e</span>
-                        <span class="pismeno ">l</span>
-                        <span class="pismeno ">o</span>
-                        <span class="pismeno ">p</span>
-                        <span class="pismeno ">e</span>
-                        <span class="pismeno ">r</span>
+                        <span class="pismeno medzera " style="margin-left: 20px;"> </span>
+                        <span class=" pismeno ">d</span>
+                        <span class=" pismeno ">e</span>
+                        <span class=" pismeno ">v</span>
+                        <span class=" pismeno ">e</span>
+                        <span class=" pismeno ">l</span>
+                        <span class=" pismeno ">o</span>
+                        <span class=" pismeno ">p</span>
+                        <span class=" pismeno ">e</span>
+                        <span class=" pismeno ">r</span>
                     </div>
                 </div>
 
 
-                <div class="title ">
+                <div class=" title ">
                     Front End Developer / Soon full stack web development
                 </div>
-                <div class="button_div ">
-                    <div class="button ">
-                        <a class="button_contact_a" href="../client/pages/contact.php ">
+                <div class=" button_div ">
+                    <div class=" button ">
+                        <a class=" button_contact_a" href="../client/pages/contact.php ">
                             <div class="text ">Contact me !</div>
                         </a>
                     </div>
@@ -350,9 +351,9 @@
 
             </div>
 
-            <div class="map ">
-                <div class="mapouter ">
-                    <div class="gmap_canvas "><iframe class="iframe " width="800 " height="800 " id="gmap_canvas "
+            <div class="map">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="iframe" width="800 " height="800 " id="gmap_canvas "
                             src="https://maps.google.com/maps?q=J%C3%A1novce%20pri%20Poprade&t=&z=11&ie=UTF8&iwloc=&output=embed "
                             frameborder="0 " scrolling="no
                             " marginheight="0 " marginwidth="0 "></iframe><br>

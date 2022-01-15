@@ -1,0 +1,39 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    html {
+        max-width: 100%;
+    }
+    .popis {
+        margin-top: 80px;
+    }
+    .prvy_riadok {
+        margin-bottom: 45px;
+    }
+    .druhy_riadok {
+        margin-bottom: 40px;
+    }
+    .popis_pod_nazov {
+        margin-top: 90px;
+    }
+    .popis_portfolio {
+        margin-top: 5rem;
+    }
+    .popis_myself {
+        margin-top: 20px !important;
+    }
+    .subject,
+    .message {
+        width: 20.1rem !important;
+    }
+    .map {
+        display: none;
+    }
+    form {
+        margin-bottom: 2rem;
+    }
+    .tagcloud {
+        width: 100px !important;
+        height: 300px !important;
+        margin-top: 180px;
+        margin-left: 25px;
+    }
+}

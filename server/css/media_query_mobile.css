@@ -252,6 +252,12 @@
         left: 140px;
         top: 180px;
     }
+    .tagcloud {
+        width: 100px !important;
+        height: 300px !important;
+        margin-top: 180px;
+        margin-left: 25px;
+    }
     .tagcloud--item {
         font-size: 13px !important;
         top: 10% !important;
@@ -275,7 +281,7 @@
         width: 88% !important;
     }
     .skills {
-        margin-top: 130%;
+        margin-top: 110%;
         margin-left: 155px;
     }
     .skills-bar .bar .info span {
@@ -283,6 +289,7 @@
     }
     .other_skills {
         width: 20rem;
+        margin-bottom: 20px;
     }
     .popis_button {
         margin-top: -4rem;
