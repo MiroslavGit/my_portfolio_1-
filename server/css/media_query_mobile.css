@@ -298,3 +298,29 @@
         margin-bottom: -10px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1620px) {
+    /* Contact */
+    .name,
+    .email {
+        width: 100%;
+    }
+    .name_email {
+        display: block;
+        width: 100%;
+    }
+    .email {
+        margin-left: 0rem;
+    }
+    input {
+        max-width: 88%;
+        width: 88%;
+    }
+    .subject,
+    .message {
+        max-width: 88%;
+    }
+    .button_submit {
+        margin-left: 270px;
+    }
+}
