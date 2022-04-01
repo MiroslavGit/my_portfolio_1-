@@ -105,7 +105,7 @@ include_once '../../server/php/database.php';
 
                 <p class="popis_contact ">
                     I’m interested in freelance opportunities – especially ambitious or large projects. However, if you
-                    have other request or question, don’t hesitate to use the form.
+                    have other request or question, don't hesitate to use the form.
                 </p>
 
                 <!--Ak chcem odosielať na email tak zmenim action="https://formsubmit.co/miroslav2022@gmail.com"  -->
